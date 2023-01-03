@@ -48,7 +48,7 @@ const Sidebar = () => {
         {routes.map((route) => (
           <div
             onClick={() => navigate(route.path)}
-            className="flex items-center gap-8 relative cursor-pointer h-8 pl-2"
+            className="flex items-center gap-8 relative cursor-pointer h-8 pl-2 w-full"
           >
             {pathname === route.path && (
               <span className="absolute w-1 bg-black h-full top-0 left-0" />
