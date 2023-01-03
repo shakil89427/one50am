@@ -6,7 +6,10 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: "2rem",
+      padding: {
+        DEFAULT: "10px",
+        md: "0",
+      },
     },
     fontFamily: {
       sans: ["Poppins", ...defaultTheme.fontFamily.sans],

@@ -8,9 +8,19 @@
     @apply fixed inset-0 top-0 left-0 overflow-y-auto;
   }
   .headerview {
-    @apply h-[48px] sm:h-[56px] md:h-[64px] lg:h-[72px] xl:h-[80px];
+    @apply h-[48px] sm:h-[56px] md:h-[64px] lg:h-[72px] xl:h-[80px] mb-3 sm:mb-4 md:mb-5;
   }
   .contentview {
-    @apply h-[calc(100%-48px)] sm:h-[calc(100%-56px)] md:h-[calc(100%-64px)] lg:h-[calc(100%-72px)] xl:h-[calc(100%-80px)];
+    @apply h-[calc(100%-60px)] sm:h-[calc(100%-72px)] md:h-[calc(100%-84px)] lg:h-[calc(100%-92px)] xl:h-[calc(100%-100px)];
   }
+}
+
+.scroller {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scroller::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
 }
