@@ -11,12 +11,13 @@ const Header = () => {
         className="w-[130px] md:w-[145px] lg:w-[160] xl:w-[175px] cursor-pointer"
         onClick={() => navigate("/")}
       />
-      <button
+      <a
+        href="mailto:contact@one50am.com"
         style={{ letterSpacing: "1.2px" }}
         className="border border-black text-black font-medium px-5 py-1.5 rounded-lg text-lg hidden lg:block"
       >
         Contact
-      </button>
+      </a>
     </header>
   );
 };

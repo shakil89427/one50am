@@ -1,6 +1,6 @@
 const News = () => {
   return (
-    <div className="pl-2 md:pl-5 grow h-full overflow-y-auto scroller">
+    <div className="pl-3 md:pl-6 lg:pl-9 xl:pl-12 grow h-full overflow-y-auto scroller">
       <p className="font-semibold text-lg md:text-xl xl:text-2xl">News</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-5 gap-y-10 mt-5">
         {new Array(20).fill("").map((item, index) => (

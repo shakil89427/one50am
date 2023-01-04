@@ -60,7 +60,7 @@ const Sidebar = () => {
               alt=""
             />
             <p
-              className={`hidden lg:block text-lg ${
+              className={`select-none hidden lg:block text-lg ${
                 pathname === route.path ? "font-bold" : "font-medium"
               }`}
             >

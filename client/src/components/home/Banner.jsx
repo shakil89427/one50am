@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div
       style={{ backgroundImage: `url(${bannerbg})` }}
-      className="text-white w-full bg-cover bg-center bg-no-repeat rounded-2xl grid grid-cols-12 sm:gap-x-10 px-2 sm:px-3 md:px-4 lg:px-5 xl:px-6 pt-5 sm:pt-0"
+      className="text-white w-full bg-cover bg-center bg-no-repeat rounded-xl grid grid-cols-12 sm:gap-x-10 px-2 sm:px-3 md:px-4 lg:px-5 xl:px-6 pt-5 sm:pt-0"
     >
       <div className="flex items-center justify-start md:justify-center col-span-12 sm:col-span-7 md:col-span-8">
         <div>
