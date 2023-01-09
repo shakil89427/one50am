@@ -4,6 +4,7 @@ import { Navigation } from "swiper";
 import "swiper/css";
 import { MdNavigateBefore, MdNavigateNext } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
+import blogs from "../../constants/blogsData";
 
 const Blogs = () => {
   const navigate = useNavigate();
@@ -29,42 +30,44 @@ const Blogs = () => {
           slidesPerView={1.2}
           spaceBetween={20}
           breakpoints={{
-            576: {
-              slidesPerView: 2.3,
-            },
             768: {
+              slidesPerView: 2.2,
+            },
+            1280: {
               slidesPerView: 3,
             },
           }}
+          className="grid grid-cols-1"
         >
-          {new Array(20).fill("").map((item, index) => (
-            <SwiperSlide key={index}>
+          {blogs.map((blog, index) => (
+            <SwiperSlide
+              key={blog.blogId}
+              className="cursor-pointer relative pb-7"
+            >
               <img
-                src="https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014__340.jpg"
+                src={`/blogs/${blog.blogId}1.png`}
                 alt=""
-                className="object-cover object-center rounded-lg w-full aspect-[16/12]"
+                className="object-cover object-center aspect-[5/4] rounded-xl"
               />
-              <p className="font-semibold line-clamp-3 mt-2">
-                New Market Strategy for Influencer Is becoming best before
-                Influencers Worth it?
+              <p className="font-semibold mt-2 line-clamp-2">{blog.title}</p>
+              <p className="mt-2 line-clamp-2">
+                {blog.content.find((item) => item.type === "text").title}
               </p>
-              <p className="font-light my-2 line-clamp-3">
-                New Market Strategy for Influencer Is becoming best before
-                Influencers Worth it?
+              <p className="absolute bottom-0 left-0 text-xs text-gray-500">
+                {blog.creationDate}
               </p>
-              <p className="text-[#2D2D2D]">Dec 2,2021</p>
             </SwiperSlide>
           ))}
         </Swiper>
         <div
           onClick={() => swiper?.slidePrev()}
-          className="hidden md:block absolute bg-white top-[25%] left-0 z-10 w-14 px-1 text-5xl shadow-xl rounded-tr-3xl rounded-br-3xl cursor-pointer select-none"
+          className="hidden xl:block absolute bg-white top-[30%] left-0 z-10 w-12 px-1 text-5xl shadow-xl rounded-tr-3xl rounded-br-3xl cursor-pointer select-none"
         >
           <MdNavigateBefore />
         </div>
         <div
           onClick={() => swiper?.slideNext()}
-          className="hidden md:block absolute bg-white top-[25%] right-0 z-10 w-14 px-1 text-5xl shadow-xl rounded-tl-3xl rounded-bl-3xl cursor-pointer select-none"
+          className="hidden xl:block absolute bg-white top-[30%] right-0 z-10 w-12 px-1 text-5xl shadow-xl rounded-tl-3xl rounded-bl-3xl cursor-pointer select-none"
         >
           <MdNavigateNext />
         </div>
