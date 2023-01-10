@@ -1,12 +1,9 @@
 const data = [
   {
     title: `6 Social Media Trends That’ll Be Huge in 2023`,
-    authorName: `Kriti`,
     readTime: 180,
     creationDate: Date.now() - 86400000 * 1,
-    storyNumber: 1,
     storyId: `wwnn6ck4h3kw4wuq31h5`,
-    slider: false,
     content: [
       { type: `image`, imgUrl: `wwnn6ck4h3kw4wuq31h51.png` },
       {
@@ -49,12 +46,9 @@ const data = [
   },
   {
     title: `This Is How the Instagram Algorithm Works in 2023`,
-    authorName: `Kriti`,
-    readTime: 180,
+    readTime: 120,
     creationDate: Date.now() - 86400000 * 3,
-    storyNumber: 2,
     storyId: `dhemyzefl1o9k6aotm85`,
-    slider: false,
     content: [
       { type: `image`, imgUrl: `dhemyzefl1o9k6aotm851.png` },
       {
@@ -152,12 +146,9 @@ const data = [
   },
   {
     title: `Using NFTs for Fundraising: What Businesses Need to Know`,
-    authorName: `Kriti`,
-    readTime: 180,
+    readTime: 120,
     creationDate: Date.now() - 86400000 * 5,
-    storyNumber: 3,
     storyId: `547xsxi1r2460i2nc91f`,
-    slider: false,
     content: [
       { type: `image`, imgUrl: `547xsxi1r2460i2nc91f1.png` },
       {
@@ -238,12 +229,9 @@ const data = [
   },
   {
     title: `How to Build and Grow a Loyal Community on LinkedIn`,
-    authorName: `Kriti`,
     readTime: 180,
     creationDate: Date.now() - 86400000 * 7,
-    storyNumber: 4,
     storyId: `92cj77yp8nw6t5vyg862`,
-    slider: false,
     content: [
       { type: `image`, imgUrl: `92cj77yp8nw6t5vyg8621.png` },
       {
@@ -328,12 +316,9 @@ const data = [
   },
   {
     title: `Hashtag Strategy for Social Media Platforms in 2023`,
-    authorName: `Kriti`,
-    readTime: 180,
+    readTime: 240,
     creationDate: Date.now() - 86400000 * 8,
-    storyNumber: 5,
     storyId: `ecs7osqy0apqw30kv8mz`,
-    slider: false,
     content: [
       { type: `image`, imgUrl: `ecs7osqy0apqw30kv8mz1.png` },
       {
@@ -388,12 +373,9 @@ const data = [
   },
   {
     title: `Netflix Password Sharing Alert—New Crackdown Starts In 2023`,
-    authorName: `Kriti`,
-    readTime: 180,
+    readTime: 120,
     creationDate: Date.now() - 86400000 * 11,
-    storyNumber: 6,
     storyId: `voaggfj849u32dgict4z`,
-    slider: false,
     content: [
       { type: `image`, imgUrl: `voaggfj849u32dgict4z1.png` },
       {
@@ -446,12 +428,9 @@ const data = [
   },
   {
     title: `How to Reply to YouTube Comments With Shorts`,
-    authorName: `Kriti`,
     readTime: 180,
     creationDate: Date.now() - 86400000 * 14,
-    storyNumber: 7,
     storyId: `obdrbenv9ia0jyyh4g69`,
-    slider: false,
     content: [
       { type: `image`, imgUrl: `obdrbenv9ia0jyyh4g691.png` },
       {
@@ -524,12 +503,9 @@ const data = [
   },
   {
     title: `Best Time to Post on TikTok in 2023?`,
-    authorName: `Kriti`,
-    readTime: 180,
+    readTime: 240,
     creationDate: Date.now() - 86400000 * 15,
-    storyNumber: 8,
     storyId: `r9hdqo3j0urzbl0syfbv`,
-    slider: false,
     content: [
       { type: `image`, imgUrl: `r9hdqo3j0urzbl0syfbv1.png` },
       {
@@ -610,12 +586,9 @@ const data = [
   },
   {
     title: `What Is User Generated Content (UGC) And Why It Is Important?`,
-    authorName: `Kriti`,
     readTime: 180,
     creationDate: Date.now() - 86400000 * 17,
-    storyNumber: 9,
     storyId: `xjx17zlrsruafk5edprt`,
-    slider: false,
     content: [
       { type: `image`, imgUrl: `xjx17zlrsruafk5edprt1.png` },
       {
@@ -677,12 +650,9 @@ const data = [
   },
   {
     title: `How to Boost Your Instagram Organic Growth`,
-    authorName: `Kriti`,
-    readTime: 180,
+    readTime: 120,
     creationDate: Date.now() - 86400000 * 19,
-    storyNumber: 10,
     storyId: `n5fazmo2mpzwkubbu09s`,
-    slider: false,
     content: [
       { type: `image`, imgUrl: `n5fazmo2mpzwkubbu09s1.png` },
       {

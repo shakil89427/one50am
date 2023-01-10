@@ -57,9 +57,10 @@ const News = () => {
               <p className="mt-3 font-light line-clamp-2">
                 {blog.content.find((item) => item.type === "text").title}
               </p>
-              <p className="absolute bottom-0 left-0 text-xs text-gray-500">
-                {moment(blog.creationDate).fromNow()}
-              </p>
+              <div className="absolute bottom-0 left-0 text-xs text-gray-500 flex items-center justify-between w-full">
+                <p>{moment(blog.creationDate).fromNow()}</p>
+                <p>{Math.floor(blog.readTime / 60)} min read</p>
+              </div>
             </SwiperSlide>
           ))}
         </Swiper>

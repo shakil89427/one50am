@@ -1,12 +1,9 @@
 const data = [
   {
     title: `4 Instagram story ideas to boost engagement for your brand`,
-    authorName: `Kriti`,
     readTime: 180,
     creationDate: Date.now() - 86400000 * 1,
-    blogNumber: 1,
     blogId: `c91f92cj77yp8nw6t5vy`,
-    slider: true,
     content: [
       { type: `image`, imgUrl: `c91f92cj77yp8nw6t5vy1.png` },
       {
@@ -47,12 +44,9 @@ const data = [
   },
   {
     title: `Why Instagram Alt Text Matters (And How To Use It)`,
-    authorName: `Kriti`,
-    readTime: 180,
+    readTime: 120,
     creationDate: Date.now() - 86400000 * 3,
-    blogNumber: 2,
     blogId: `g862ecs7osqy0apqw30k`,
-    slider: true,
     content: [
       { type: `image`, imgUrl: `g862ecs7osqy0apqw30k1.png` },
       {
@@ -93,12 +87,9 @@ const data = [
   },
   {
     title: `3 Things Gen Z Will Spend Money On & Why Marketers Need to Care`,
-    authorName: `Kriti`,
-    readTime: 180,
+    readTime: 120,
     creationDate: Date.now() - 86400000 * 5,
-    blogNumber: 3,
     blogId: `v8mzvoaggfj849u32dgi`,
-    slider: true,
     content: [
       { type: `image`, imgUrl: `v8mzvoaggfj849u32dgi1.png` },
       {
@@ -162,12 +153,9 @@ const data = [
   },
   {
     title: `Facebook Adds Another Way to Facilitate Reels Creation in the App`,
-    authorName: `Kriti`,
     readTime: 180,
     creationDate: Date.now() - 86400000 * 7,
-    blogNumber: 4,
     blogId: `ct4zobdrbenv9ia0jyyh`,
-    slider: true,
     content: [
       { type: `image`, imgUrl: `ct4zobdrbenv9ia0jyyh1.png` },
       {
@@ -212,12 +200,9 @@ const data = [
   },
   {
     title: `The Science Behind the Best Instagram Bios`,
-    authorName: `Kriti`,
-    readTime: 180,
+    readTime: 240,
     creationDate: Date.now() - 86400000 * 8,
-    blogNumber: 5,
     blogId: `4g69r9hdqo3j0urzbl0s`,
-    slider: false,
     content: [
       { type: `image`, imgUrl: `4g69r9hdqo3j0urzbl0s1.png` },
       {
@@ -298,12 +283,9 @@ const data = [
   },
   {
     title: `Social Media Search Tactics: Top Tools and Tricks for 2023`,
-    authorName: `Kriti`,
-    readTime: 180,
+    readTime: 120,
     creationDate: Date.now() - 86400000 * 11,
-    blogNumber: 6,
     blogId: `yfbvxjx17zlrsruafk5e`,
-    slider: false,
     content: [
       { type: `image`, imgUrl: `yfbvxjx17zlrsruafk5e1.png` },
       {
@@ -356,12 +338,9 @@ const data = [
   },
   {
     title: `Snapchat Now Lets You Compare In-Depth Astrology Readings With Friends`,
-    authorName: `Kriti`,
     readTime: 180,
     creationDate: Date.now() - 86400000 * 14,
-    blogNumber: 7,
     blogId: `dprtn5fazmo2mpzwkubb`,
-    slider: false,
     content: [
       { type: `image`, imgUrl: `dprtn5fazmo2mpzwkubb1.png` },
       {
@@ -402,12 +381,9 @@ const data = [
   },
   {
     title: `Life After the News Feed: Why Facebook is Shifting to Stories (And Why Your Business Should Too)`,
-    authorName: `Kriti`,
-    readTime: 180,
+    readTime: 240,
     creationDate: Date.now() - 86400000 * 15,
-    blogNumber: 8,
     blogId: `u09s6s8l3lto1p5u153b`,
-    slider: false,
     content: [
       { type: `image`, imgUrl: `u09s6s8l3lto1p5u153b1.png` },
       {
@@ -455,12 +431,9 @@ const data = [
   },
   {
     title: `AI Creation Tools Will Change the Way We Create, Engage and Interact in 2023`,
-    authorName: `Kriti`,
     readTime: 180,
     creationDate: Date.now() - 86400000 * 17,
-    blogNumber: 9,
     blogId: `nx23aqm78vzcibxtutwm`,
-    slider: false,
     content: [
       { type: `image`, imgUrl: `nx23aqm78vzcibxtutwm1.png` },
       {
@@ -510,12 +483,9 @@ const data = [
   },
   {
     title: `How to sell on Pinterest: A step-by-step guide for brands`,
-    authorName: `Kriti`,
-    readTime: 180,
+    readTime: 120,
     creationDate: Date.now() - 86400000 * 19,
-    blogNumber: 10,
     blogId: `qv7pp0tvp6qcayq4xr18`,
-    slider: false,
     content: [
       { type: `image`, imgUrl: `qv7pp0tvp6qcayq4xr181.png` },
       {

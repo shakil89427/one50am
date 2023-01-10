@@ -26,9 +26,10 @@ const Blogs = () => {
             <p className="font-light line-clamp-3 mt-3">
               {blog.content.find((item) => item.type === "text").title}
             </p>
-            <p className="text-[#2D2D2D] text-xs absolute bottom-0 left-0">
-              {moment(blog.creationDate).fromNow()}
-            </p>
+            <div className="absolute bottom-0 left-0 text-xs text-gray-500 flex items-center justify-between w-full">
+              <p>{moment(blog.creationDate).fromNow()}</p>
+              <p>{Math.floor(blog.readTime / 60)} min read</p>
+            </div>
           </div>
         ))}
       </div>

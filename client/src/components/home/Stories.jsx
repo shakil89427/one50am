@@ -37,9 +37,10 @@ const Stories = () => {
               <p className="font-light my-3 line-clamp-3">
                 {story.content.find((item) => item.type === "text").title}
               </p>
-              <p className="text-[#2D2D2D] text-xs">
-                {moment(story.creationDate).fromNow()}
-              </p>
+              <div className="text-xs text-gray-500 flex items-center justify-between">
+                <p>{moment(story.creationDate).fromNow()}</p>
+                <p>{Math.floor(story.readTime / 60)} min read</p>
+              </div>
             </div>
           </div>
         ))}
