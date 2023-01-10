@@ -4,7 +4,7 @@ import { Navigation } from "swiper";
 import "swiper/css";
 import { MdNavigateBefore, MdNavigateNext } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
-import blogs from "../../constants/blogsData";
+import newses from "../../constants/newsData";
 import moment from "moment";
 
 const News = () => {
@@ -40,26 +40,23 @@ const News = () => {
           }}
           className="grid grid-cols-1"
         >
-          {blogs.map((blog) => (
+          {newses.map((news) => (
             <SwiperSlide
-              onClick={() => navigate(`/blogs/${blog.blogId}`)}
-              key={blog.blogId}
+              key={news.newsId}
               className="cursor-pointer relative pb-7"
             >
               <img
-                src={`${new URL(import.meta.url).origin}/blogs/${
-                  blog.blogId
-                }1.png`}
+                src={`${new URL(import.meta.url).origin}/news/${
+                  news.newsId
+                }.png`}
                 alt=""
                 className="object-cover object-center aspect-[5/4] rounded-xl"
               />
-              <p className="font-semibold mt-3 line-clamp-2">{blog.title}</p>
-              <p className="mt-3 font-light line-clamp-2">
-                {blog.content.find((item) => item.type === "text").title}
-              </p>
+              <p className="font-semibold mt-3 line-clamp-2">{news.title}</p>
+              <p className="mt-3 font-light line-clamp-2">{news.description}</p>
               <div className="absolute bottom-0 left-0 text-xs text-gray-500 flex items-center justify-between w-full">
-                <p>{moment(blog.creationDate).fromNow()}</p>
-                <p>{Math.floor(blog.readTime / 60)} min read</p>
+                <p>{moment(news.creationDate).fromNow()}</p>
+                <p>{Math.floor(news.readTime / 60)} min read</p>
               </div>
             </SwiperSlide>
           ))}
