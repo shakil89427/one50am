@@ -11,7 +11,7 @@ const Stories = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-10 mt-5">
         {stories.map((story) => (
           <div
-            onClick={() => navigate(`/storydetails/${story.storyId}`)}
+            onClick={() => navigate(`/stories/${story.storyId}`)}
             key={story.storyId}
             className="relative pb-7 cursor-pointer"
           >

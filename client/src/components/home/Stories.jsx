@@ -21,7 +21,7 @@ const Stories = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-10 mt-5">
         {stories.slice(0, 4).map((story) => (
           <div
-            onClick={() => navigate(`/storydetails/${story.storyId}`)}
+            onClick={() => navigate(`/stories/${story.storyId}`)}
             key={story.storyId}
             className="grid grid-cols-1 xl:grid-cols-2 gap-3 cursor-pointer"
           >

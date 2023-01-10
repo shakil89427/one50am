@@ -9,6 +9,10 @@ const StoryDetails = () => {
     return stories.find((item) => item.storyId === storyId);
   }, [storyId]);
 
+  if (!story) {
+    return <p className="text-center mt-10 grow">Not found</p>;
+  }
+
   return (
     <div className="pl-3 md:pl-6 lg:pl-9 xl:pl-12 grow h-full overflow-y-auto scroller pb-20">
       <div className="w-full max-w-[900px] mx-auto">

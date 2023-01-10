@@ -42,7 +42,7 @@ const News = () => {
         >
           {blogs.map((blog) => (
             <SwiperSlide
-              onClick={() => navigate(`/blogdetails/${blog.blogId}`)}
+              onClick={() => navigate(`/blogs/${blog.blogId}`)}
               key={blog.blogId}
               className="cursor-pointer relative pb-7"
             >

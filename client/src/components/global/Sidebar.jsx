@@ -13,7 +13,7 @@ const Sidebar = () => {
   const { pathname } = useLocation();
   const navigate = useNavigate();
 
-  const routes = useMemo(() => {
+  const availableSideroutes = useMemo(() => {
     return [
       {
         title: "Home",
@@ -42,10 +42,16 @@ const Sidebar = () => {
     ];
   }, []);
 
+  const showToRoutes = useMemo(() => {
+    return ["", "news", "stories", "blogs"];
+  }, []);
+
+  if (showToRoutes.indexOf(pathname.split("/")[1]) === -1) return null;
+
   return (
     <div className="pr-2 md:pr-5 w-[50px] lg:w-[200px] shrink-0 border-r h-full overflow-y-auto scroller">
       <div className="w-full flex flex-col items-start gap-8">
-        {routes.map((route) => (
+        {availableSideroutes.map((route) => (
           <div
             key={route.title}
             onClick={() => navigate(route.path)}
