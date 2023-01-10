@@ -1,7 +1,9 @@
 import { useNavigate } from "react-router-dom";
+import stories from "../../constants/storiesData";
 
 const Stories = () => {
   const navigate = useNavigate();
+
   return (
     <div className="w-full">
       <div className="flex items-center justify-between">
@@ -15,24 +17,26 @@ const Stories = () => {
           View all
         </span>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-5">
-        {new Array(4).fill("").map((item, index) => (
-          <div key={index} className="grid grid-cols-1 xl:grid-cols-2 gap-3">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-10 mt-5">
+        {stories.slice(0, 4).map((story) => (
+          <div
+            onClick={() => navigate(`/storydetails/${story.storyId}`)}
+            key={story.storyId}
+            className="grid grid-cols-1 xl:grid-cols-2 gap-3 cursor-pointer"
+          >
             <img
-              src="https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014__340.jpg"
+              src={`${new URL(import.meta.url).origin}/stories/${
+                story.storyId
+              }1.png`}
               alt=""
-              className="object-cover object-center rounded-lg w-full h-full"
+              className="object-cover object-center rounded-lg w-full h-full aspect-[5/3] sm:aspect-[5/4] xl:aspect-auto"
             />
-            <div className="">
-              <p className="font-semibold line-clamp-3">
-                New Market Strategy for Influencer Is becoming best before
-                Influencers Worth it?
+            <div>
+              <p className="font-semibold line-clamp-2">{story.title}</p>
+              <p className="font-light my-3 line-clamp-3">
+                {story.content.find((item) => item.type === "text").title}
               </p>
-              <p className="font-light my-2 line-clamp-3">
-                New Market Strategy for Influencer Is becoming best before
-                Influencers Worth it?
-              </p>
-              <p className="text-[#2D2D2D]">Dec 2,2021</p>
+              <p className="text-[#2D2D2D] text-xs">{story.creationDate}</p>
             </div>
           </div>
         ))}

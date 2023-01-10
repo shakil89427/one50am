@@ -39,18 +39,21 @@ const Blogs = () => {
           }}
           className="grid grid-cols-1"
         >
-          {blogs.map((blog, index) => (
+          {blogs.map((blog) => (
             <SwiperSlide
+              onClick={() => navigate(`/blogdetails/${blog.blogId}`)}
               key={blog.blogId}
               className="cursor-pointer relative pb-7"
             >
               <img
-                src={`/blogs/${blog.blogId}1.png`}
+                src={`${new URL(import.meta.url).origin}/blogs/${
+                  blog.blogId
+                }1.png`}
                 alt=""
                 className="object-cover object-center aspect-[5/4] rounded-xl"
               />
-              <p className="font-semibold mt-2 line-clamp-2">{blog.title}</p>
-              <p className="mt-2 line-clamp-2">
+              <p className="font-semibold mt-3 line-clamp-2">{blog.title}</p>
+              <p className="mt-3 font-light line-clamp-2">
                 {blog.content.find((item) => item.type === "text").title}
               </p>
               <p className="absolute bottom-0 left-0 text-xs text-gray-500">
@@ -61,13 +64,13 @@ const Blogs = () => {
         </Swiper>
         <div
           onClick={() => swiper?.slidePrev()}
-          className="hidden xl:block absolute bg-white top-[30%] left-0 z-10 w-12 px-1 text-5xl shadow-xl rounded-tr-3xl rounded-br-3xl cursor-pointer select-none"
+          className="hidden xl:block absolute bg-white top-[30%] left-0 z-10 w-12 p-1 text-4xl shadow-xl rounded-tr-3xl rounded-br-3xl cursor-pointer select-none"
         >
           <MdNavigateBefore />
         </div>
         <div
           onClick={() => swiper?.slideNext()}
-          className="hidden xl:block absolute bg-white top-[30%] right-0 z-10 w-12 px-1 text-5xl shadow-xl rounded-tl-3xl rounded-bl-3xl cursor-pointer select-none"
+          className="hidden xl:block absolute bg-white top-[30%] right-0 z-10 w-12 p-1 text-4xl shadow-xl rounded-tl-3xl rounded-bl-3xl cursor-pointer select-none"
         >
           <MdNavigateNext />
         </div>
