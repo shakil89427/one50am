@@ -1,3 +1,4 @@
+import moment from "moment";
 import { useNavigate } from "react-router-dom";
 import stories from "../constants/storiesData";
 
@@ -5,7 +6,7 @@ const Stories = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="pl-3 md:pl-6 lg:pl-9 xl:pl-12 grow h-full overflow-y-auto scroller">
+    <div className="pl-3 md:pl-6 lg:pl-9 xl:pl-12 grow h-full overflow-y-auto scroller pb-20">
       <p className="font-semibold text-lg md:text-xl xl:text-2xl">Stories</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-10 mt-5">
         {stories.map((story) => (
@@ -26,7 +27,7 @@ const Stories = () => {
               {story.content.find((item) => item.type === "text").title}
             </p>
             <p className="text-[#2D2D2D] text-xs absolute bottom-0 left-0">
-              {story.creationDate}
+              {moment(story.creationDate).fromNow()}
             </p>
           </div>
         ))}

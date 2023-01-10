@@ -1,3 +1,4 @@
+import moment from "moment";
 import { useNavigate } from "react-router-dom";
 import blogs from "../constants/blogsData";
 
@@ -5,7 +6,7 @@ const Blogs = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="pl-3 md:pl-6 lg:pl-9 xl:pl-12 grow h-full overflow-y-auto scroller">
+    <div className="pl-3 md:pl-6 lg:pl-9 xl:pl-12 grow h-full overflow-y-auto scroller pb-20">
       <p className="font-semibold text-lg md:text-xl xl:text-2xl">Blogs</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-10 mt-5">
         {blogs.map((blog) => (
@@ -26,7 +27,7 @@ const Blogs = () => {
               {blog.content.find((item) => item.type === "text").title}
             </p>
             <p className="text-[#2D2D2D] text-xs absolute bottom-0 left-0">
-              {blog.creationDate}
+              {moment(blog.creationDate).fromNow()}
             </p>
           </div>
         ))}

@@ -5,6 +5,7 @@ import "swiper/css";
 import { MdNavigateBefore, MdNavigateNext } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 import blogs from "../../constants/blogsData";
+import moment from "moment/moment";
 
 const Blogs = () => {
   const navigate = useNavigate();
@@ -57,7 +58,7 @@ const Blogs = () => {
                 {blog.content.find((item) => item.type === "text").title}
               </p>
               <p className="absolute bottom-0 left-0 text-xs text-gray-500">
-                {blog.creationDate}
+                {moment(blog.creationDate).fromNow()}
               </p>
             </SwiperSlide>
           ))}

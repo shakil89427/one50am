@@ -13,7 +13,7 @@ const Footer = () => {
     ];
   }, []);
   return (
-    <footer className="bg-black text-white mt-8 sm:mt-9 md:mt-10 py-20">
+    <footer className="bg-black text-white py-20">
       <div className="container flex flex-col gap-10 md:flex-row md:gap-20 lg:gap-32 xl:gap-40 items-center justify-center">
         <div>
           <img

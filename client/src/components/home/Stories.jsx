@@ -1,3 +1,4 @@
+import moment from "moment";
 import { useNavigate } from "react-router-dom";
 import stories from "../../constants/storiesData";
 
@@ -36,7 +37,9 @@ const Stories = () => {
               <p className="font-light my-3 line-clamp-3">
                 {story.content.find((item) => item.type === "text").title}
               </p>
-              <p className="text-[#2D2D2D] text-xs">{story.creationDate}</p>
+              <p className="text-[#2D2D2D] text-xs">
+                {moment(story.creationDate).fromNow()}
+              </p>
             </div>
           </div>
         ))}
