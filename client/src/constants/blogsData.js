@@ -2,7 +2,7 @@ const data = [
   {
     title: `4 Instagram story ideas to boost engagement for your brand`,
     readTime: 180,
-    creationDate: Date.now() - 86400000 * 1,
+    creationDate: Date.now() - 14400000,
     blogId: `c91f92cj77yp8nw6t5vy`,
     content: [
       { type: `image`, imgUrl: `c91f92cj77yp8nw6t5vy1.png` },

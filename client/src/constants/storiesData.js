@@ -2,7 +2,7 @@ const data = [
   {
     title: `6 Social Media Trends That’ll Be Huge in 2023`,
     readTime: 180,
-    creationDate: Date.now() - 86400000 * 1,
+    creationDate: Date.now() - 21600000,
     storyId: `wwnn6ck4h3kw4wuq31h5`,
     content: [
       { type: `image`, imgUrl: `wwnn6ck4h3kw4wuq31h51.png` },
