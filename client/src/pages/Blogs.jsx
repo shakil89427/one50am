@@ -16,7 +16,7 @@ const Blogs = () => {
             className="relative pb-7 cursor-pointer"
           >
             <img
-              src={`${new URL(import.meta.url).origin}/blogs/${
+              src={`${new URL(import.meta.url).origin}/blogsassets/${
                 blog.blogId
               }1.png`}
               alt=""

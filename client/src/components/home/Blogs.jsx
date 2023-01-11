@@ -47,7 +47,7 @@ const Blogs = () => {
               className="cursor-pointer relative pb-7"
             >
               <img
-                src={`${new URL(import.meta.url).origin}/blogs/${
+                src={`${new URL(import.meta.url).origin}/blogsassets/${
                   blog.blogId
                 }1.png`}
                 alt=""

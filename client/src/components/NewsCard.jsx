@@ -12,7 +12,7 @@ const NewsCard = ({ selectedNews, setSelectedNews }) => {
       <div className="w-[95%] max-w-[400px] h-[70vh] bg-white rounded-lg overflow-hidden flex flex-col items-start justify-start">
         <div className="shrink-0">
           <img
-            src={`${new URL(import.meta.url).origin}/news/${
+            src={`${new URL(import.meta.url).origin}/newsassets/${
               selectedNews.newsId
             }.png`}
             alt=""

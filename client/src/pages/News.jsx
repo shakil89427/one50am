@@ -23,7 +23,9 @@ const News = () => {
             onClick={() => setSelectedNews(news)}
           >
             <img
-              src={`${new URL(import.meta.url).origin}/news/${news.newsId}.png`}
+              src={`${new URL(import.meta.url).origin}/newsassets/${
+                news.newsId
+              }.png`}
               alt=""
               className="object-cover object-center rounded-xl w-full aspect-[16/12]"
             />

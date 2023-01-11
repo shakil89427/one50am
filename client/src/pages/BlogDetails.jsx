@@ -37,7 +37,7 @@ const BlogDetails = () => {
             <div key={index}>
               {item?.type === "image" && (
                 <img
-                  src={`${new URL(import.meta.url).origin}/blogs/${
+                  src={`${new URL(import.meta.url).origin}/blogsassets/${
                     item.imgUrl
                   }`}
                   alt=""

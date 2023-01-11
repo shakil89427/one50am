@@ -37,7 +37,7 @@ const StoryDetails = () => {
             <div key={index}>
               {item?.type === "image" && (
                 <img
-                  src={`${new URL(import.meta.url).origin}/stories/${
+                  src={`${new URL(import.meta.url).origin}/storiesassets/${
                     item.imgUrl
                   }`}
                   alt=""

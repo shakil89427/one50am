@@ -55,7 +55,7 @@ const News = () => {
               onClick={() => setSelectedNews(news)}
             >
               <img
-                src={`${new URL(import.meta.url).origin}/news/${
+                src={`${new URL(import.meta.url).origin}/newsassets/${
                   news.newsId
                 }.png`}
                 alt=""

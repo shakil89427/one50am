@@ -26,7 +26,7 @@ const Stories = () => {
             className="grid grid-cols-1 xl:grid-cols-2 gap-3 cursor-pointer"
           >
             <img
-              src={`${new URL(import.meta.url).origin}/stories/${
+              src={`${new URL(import.meta.url).origin}/storiesassets/${
                 story.storyId
               }1.png`}
               alt=""
