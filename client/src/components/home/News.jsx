@@ -6,13 +6,21 @@ import { MdNavigateBefore, MdNavigateNext } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 import newses from "../../constants/newsData";
 import moment from "moment";
+import NewsCard from "../NewsCard";
 
 const News = () => {
   const navigate = useNavigate();
   const [swiper, setSwiper] = useState({});
+  const [selectedNews, setSelectedNews] = useState(null);
 
   return (
     <div className="w-full">
+      {selectedNews && (
+        <NewsCard
+          selectedNews={selectedNews}
+          setSelectedNews={setSelectedNews}
+        />
+      )}
       <div className="flex items-center justify-between">
         <h1 className="font-semibold text-lg md:text-xl xl:text-2xl">News</h1>
         <span
@@ -44,6 +52,7 @@ const News = () => {
             <SwiperSlide
               key={news.newsId}
               className="cursor-pointer relative pb-7"
+              onClick={() => setSelectedNews(news)}
             >
               <img
                 src={`${new URL(import.meta.url).origin}/news/${
