@@ -21,7 +21,6 @@ const Footer = () => {
               src={logowhite}
               alt=""
               className="w-[130px] md:w-[145px] lg:w-[160] xl:w-[175px] cursor-pointer block mx-auto md:mx-0"
-              onClick={() => navigate("/")}
             />
           </a>
           <a href="https://flytant.com">
