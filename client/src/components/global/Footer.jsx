@@ -8,8 +8,8 @@ const Footer = () => {
     return [
       { title: "Home", path: "/" },
       { title: "Contact", path: "/" },
-      { title: "About", path: "/" },
-      { title: "Terms", path: "/" },
+      { title: "Privacy", path: "/privacy" },
+      { title: "Terms", path: "/terms" },
     ];
   }, []);
   return (

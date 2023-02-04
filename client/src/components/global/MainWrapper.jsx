@@ -1,19 +1,18 @@
-import { Outlet } from "react-router-dom";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
 import Footer from "./Footer";
 
-const Root = () => {
+const MainWrapper = ({ children }) => {
   return (
     <>
       <Header />
       <div className="container contentview flex items-start">
         <Sidebar />
-        <Outlet />
+        {children}
       </div>
       <Footer />
     </>
   );
 };
 
-export default Root;
+export default MainWrapper;
