@@ -78,6 +78,22 @@ const App = () => {
           </SecondaryWrapper>
         }
       />
+      <Route
+        path="/dating/privacy"
+        element={
+          <SecondaryWrapper>
+            <Privacy />
+          </SecondaryWrapper>
+        }
+      />
+      <Route
+        path="/dating/terms"
+        element={
+          <SecondaryWrapper>
+            <Terms />
+          </SecondaryWrapper>
+        }
+      />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );
