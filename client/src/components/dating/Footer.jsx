@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
         <div className="flex items-center sm:items-start justify-center sm:col-span-2 lg:col-span-1">
           <div>
-            <div className="bg-white text-black flex items-center justify-center gap-1 rounded w-48 h-11 cursor-pointer font-medium hover:scale-105 duration-300">
+            <div className="bg-white text-black flex items-center justify-center gap-1 rounded w-48 h-11 cursor-pointer hover:scale-105 duration-300 font-medium">
               <IoLogoGooglePlaystore className="text-2xl" />
               <p>Download the app</p>
             </div>

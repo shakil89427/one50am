@@ -7,9 +7,9 @@ import smallspiral from "../../assets/dating/smallspiral.png";
 const Middle = () => {
   return (
     <div className="bg-gradient-to-b from-[#FF0364] to-[#FF4B90] lg:mt-10">
-      <div className="container relative py-32 lg:py-36 xl:py-40 overflow-hidden">
-        <img src={bigspiral} alt="" className="absolute top-0 left-0" />
-        <img src={smallspiral} alt="" className="absolute bottom-0 right-0" />
+      <div className="container relative py-32 lg:py-40 xl:py-48 overflow-hidden">
+        <img src={bigspiral} alt="" className="absolute top-0 left-0 w-40 lg:w-48" />
+        <img src={smallspiral} alt="" className="absolute bottom-10 right-0 w-20 lg:w-28" />
         <Swiper
           speed={600}
           autoplay={{ delay: 3000 }}
