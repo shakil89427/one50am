@@ -10,6 +10,7 @@ import BlogDetails from "./pages/BlogDetails";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 import NotFound from "./pages/NotFound";
+import Dating from "./pages/Dating";
 
 const App = () => {
   return (
@@ -78,6 +79,7 @@ const App = () => {
           </SecondaryWrapper>
         }
       />
+      <Route path="/dating" element={<Dating />} />
       <Route
         path="/dating/privacy"
         element={
