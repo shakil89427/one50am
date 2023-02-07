@@ -5,9 +5,11 @@ import Middle from "../components/dating/Middle";
 
 const Dating = () => {
   return (
-    <div className="rubik">
-      <Header />
-      <Banner />
+    <div className="rubik bg-[#FF0364]">
+      <div className="lg:min-h-screen flex flex-col items-center justify-start">
+        <Header />
+        <Banner />
+      </div>
       <Middle />
       <Footer />
     </div>

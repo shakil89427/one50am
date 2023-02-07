@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex items-center sm:items-start justify-center">
-          <div className="grid grid-cols-2 gap-x-7 gap-y-3 font-medium">
+          <div className="grid grid-cols-2 gap-x-7 gap-y-3">
             {links.map((link) => (
               <Link to={link.path}>{link.title}</Link>
             ))}
@@ -48,11 +48,11 @@ const Footer = () => {
         </div>
         <div className="flex items-center sm:items-start justify-center sm:col-span-2 lg:col-span-1">
           <div>
-            <div className="bg-white text-black flex items-center justify-center gap-1 rounded w-48 h-11 cursor-pointer font-medium">
+            <div className="bg-white text-black flex items-center justify-center gap-1 rounded w-48 h-11 cursor-pointer font-medium hover:scale-105 duration-300">
               <IoLogoGooglePlaystore className="text-2xl" />
               <p>Download the app</p>
             </div>
-            <p className="mt-5 text-center text-sm lg:text-start font-medium">Follow us</p>
+            <p className="mt-5 text-center text-sm lg:text-start">Follow us</p>
             <div className="flex items-center justify-center lg:justify-start gap-1 text-2xl mt-1">
               <AiFillInstagram className="cursor-pointer" />
               <AiFillFacebook className="cursor-pointer" />
