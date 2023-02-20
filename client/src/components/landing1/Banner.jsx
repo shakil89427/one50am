@@ -13,7 +13,8 @@ const Banner = () => {
             Play the all new Hyper Casual game to Earn Coins and Withdraw
           </p>
           <a
-            href="#"
+            target="_blank"
+            href="http://bit.ly/3k5LmKH"
             className="flex items-center justify-center w-full max-w-[200px] h-12 rounded-md mt-12 text-white font-semibold bg-[#FF5C00]"
           >
             Play Now

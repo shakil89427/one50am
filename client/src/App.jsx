@@ -56,7 +56,7 @@ const App = () => {
             <BlogDetails />
           </MainWrapper>
         }
-      />
+      /> */}
       <Route
         path="/privacy"
         element={
@@ -73,7 +73,7 @@ const App = () => {
           </SecondaryWrapper>
         }
       />
-      <Route path="/dating" element={<Dating />} />
+      {/* <Route path="/dating" element={<Dating />} />
       <Route
         path="/dating/privacy"
         element={

@@ -28,15 +28,21 @@ const Footer = () => {
           </a>
         </div>
         <div className="grid grid-cols-2 gap-x-10 gap-y-3 font-medium lg:text-lg">
-          {routes.map((route) => (
-            <p
-              key={route.title}
-              onClick={() => navigate(route.path)}
-              className="cursor-pointer select-none"
-            >
-              {route.title}
-            </p>
-          ))}
+          <p onClick={() => navigate("/")} className="cursor-pointer select-none">
+            Home
+          </p>
+          <p
+            onClick={() => window.open("mailto:contact@one50am.com")}
+            className="cursor-pointer select-none"
+          >
+            Contact
+          </p>
+          <p onClick={() => navigate("/privacy")} className="cursor-pointer select-none">
+            Privacy
+          </p>
+          <p onClick={() => navigate("/terms")} className="cursor-pointer select-none">
+            Terms
+          </p>
         </div>
       </div>
     </footer>

@@ -6,13 +6,14 @@ const Header = () => {
       <img src={logo} alt="" className="w-40 md:w-48 lg:w-56" />
       <span className="flex items-center gap-5">
         <a
-          href="#"
+          target="_blank"
+          href="http://bit.ly/3k5LmKH"
           className="w-32 h-11 bg-[#FF5C00] flex items-center justify-center text-white rounded-lg font-medium text-lg"
         >
           Download
         </a>
         <a
-          href="#"
+          href="mailto:contact@one50am.com"
           className="hidden w-32 h-11 border border-white lg:flex items-center justify-center text-white rounded-lg font-medium text-lg"
         >
           Contact
