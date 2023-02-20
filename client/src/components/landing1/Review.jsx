@@ -16,7 +16,7 @@ const Review = () => {
       <div className="mt-20 grid grid-cols-1 lg:grid-cols-3 gap-5 text-center">
         <div className="bg-white px-5 py-10 rounded-lg flex flex-col items-center justify-center gap-5">
           <img src={reviewimg1} alt="" />
-          <p className="text-2xl font-semibold">Kristin Watson</p>
+          <p className="text-2xl font-semibold">Jacob Jones</p>
           <div className="flex items-center justify-center gap-1">
             <img src={star1} alt="" />
             <img src={star1} alt="" />
@@ -49,7 +49,7 @@ const Review = () => {
 
         <div className="bg-white px-5 py-10 rounded-lg flex flex-col items-center justify-center gap-5">
           <img src={reviewimg3} alt="" />
-          <p className="text-2xl font-semibold">Jacob Jones</p>
+          <p className="text-2xl font-semibold">Kristin Watson</p>
           <div className="flex items-center justify-center gap-1">
             <img src={star1} alt="" />
             <img src={star1} alt="" />
