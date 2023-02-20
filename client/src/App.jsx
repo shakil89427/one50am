@@ -1,29 +1,23 @@
 import { Routes, Route } from "react-router-dom";
 import MainWrapper from "./components/global/MainWrapper";
 import SecondaryWrapper from "./components/global/SecondaryWrapper";
-import Home from "./pages/Home";
-import News from "./pages/News";
-import Stories from "./pages/Stories";
-import StoryDetails from "./pages/StoryDetails";
-import Blogs from "./pages/Blogs";
-import BlogDetails from "./pages/BlogDetails";
+// import Home from "./pages/Home";
+// import News from "./pages/News";
+// import Stories from "./pages/Stories";
+// import StoryDetails from "./pages/StoryDetails";
+// import Blogs from "./pages/Blogs";
+// import BlogDetails from "./pages/BlogDetails";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 import NotFound from "./pages/NotFound";
 import Dating from "./pages/Dating";
+import Landing1 from "./pages/Landing1";
 
 const App = () => {
   return (
     <Routes>
-      <Route
-        path="/"
-        element={
-          <MainWrapper>
-            <Home />
-          </MainWrapper>
-        }
-      />
-      <Route
+      <Route path="/" element={<Landing1 />} />
+      {/* <Route
         path="/news"
         element={
           <MainWrapper>
@@ -95,7 +89,7 @@ const App = () => {
             <Terms />
           </SecondaryWrapper>
         }
-      />
+      /> */}
       <Route path="*" element={<NotFound />} />
     </Routes>
   );
