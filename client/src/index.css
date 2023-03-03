@@ -1,20 +1,20 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"); */
-@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;400;500;600;700;800;900&display=swap"); */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer components {
-  /* #root {
+  #root {
     @apply fixed inset-0 top-0 left-0 overflow-y-auto;
-  } */
-  /* .container {
-    @apply w-full sm:max-w-[610px] md:max-w-[720] lg:max-w-[970px] xl:max-w-[1200px] 2xl:max-w-[1360px] px-[10px] sm:px-0 mx-auto;
-  } */
-  .container {
-    @apply w-full sm:max-w-[610px] md:max-w-[720] lg:max-w-[970px] xl:max-w-[1200px] 2xl:max-w-[1360px] px-[10px] mx-auto;
   }
+  .container {
+    @apply w-full sm:max-w-[610px] md:max-w-[720] lg:max-w-[970px] xl:max-w-[1200px] 2xl:max-w-[1360px] px-[10px] sm:px-0 mx-auto;
+  }
+  /* .container {
+    @apply w-full sm:max-w-[610px] md:max-w-[720] lg:max-w-[970px] xl:max-w-[1200px] 2xl:max-w-[1360px] px-[10px] mx-auto;
+  } */
   .headerview {
     @apply h-[48px] sm:h-[56px] md:h-[64px] lg:h-[72px] xl:h-[80px] mb-3 sm:mb-4 md:mb-5 lg:mb-6 xl:mb-7;
   }
