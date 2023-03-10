@@ -533,7 +533,7 @@ const data = [
   {
     title: `Effective Strategies for Australian Brands to Boost Instagram Engagement`,
     readTime: 120,
-    creationDate: Date.now() - 86400000 * 20,
+    creationDate: Date.now() - 86400000 * 23,
     blogId: `kUxTCJrwV8lu0EuiNxtY`,
     content: [
       { type: `image`, imgUrl: `kUxTCJrwV8lu0EuiNxtY1.png` },
@@ -604,7 +604,7 @@ const data = [
   {
     title: `TikTok Algorithm Hacks: How to Get Your Content on the 'For You' Page in Australia`,
     readTime: 180,
-    creationDate: Date.now() - 86400000 * 21,
+    creationDate: Date.now() - 86400000 * 27,
     blogId: `qNOSjXSxUxyJsfsMMomo`,
     content: [
       { type: `image`, imgUrl: `qNOSjXSxUxyJsfsMMomo1.png` },
@@ -692,7 +692,7 @@ const data = [
   {
     title: `Twitter Hacks for Australian Businesses: How to Increase Your Reach and Engagement.`,
     readTime: 240,
-    creationDate: Date.now() - 86400000 * 22,
+    creationDate: Date.now() - 86400000 * 29,
     blogId: `ayWDrBJ5vVsReZVbTHUN`,
     content: [
       { type: `image`, imgUrl: `ayWDrBJ5vVsReZVbTHUN1.png` },
@@ -760,7 +760,7 @@ const data = [
   {
     title: `10 YouTube Hacks to Boost Your Views and Engagement in Australia`,
     readTime: 120,
-    creationDate: Date.now() - 86400000 * 23,
+    creationDate: Date.now() - 86400000 * 32,
     blogId: `W1e1W6mLoNVlVwIP6or5`,
     content: [
       { type: `image`, imgUrl: `W1e1W6mLoNVlVwIP6or51.png` },
@@ -869,7 +869,7 @@ const data = [
   {
     title: `Effective Shopify SEO Strategies for Australian Businesses with examples`,
     readTime: 180,
-    creationDate: Date.now() - 86400000 * 24,
+    creationDate: Date.now() - 86400000 * 33,
     blogId: `vQyf8T6GhgTWqEyMWGpF`,
     content: [
       { type: `image`, imgUrl: `vQyf8T6GhgTWqEyMWGpF1.png` },
@@ -942,7 +942,7 @@ const data = [
   {
     title: `Case Study: How a Small Australian Business Succeeded with Shopify`,
     readTime: 240,
-    creationDate: Date.now() - 86400000 * 25,
+    creationDate: Date.now() - 86400000 * 36,
     blogId: `iijPSw7suCgKWXbtPVYD`,
     content: [
       { type: `image`, imgUrl: `iijPSw7suCgKWXbtPVYD1.png` },
@@ -1031,7 +1031,7 @@ const data = [
   {
     title: `How to Use Chatbots to Generate Leads on Social Media in Australia`,
     readTime: 120,
-    creationDate: Date.now() - 86400000 * 26,
+    creationDate: Date.now() - 86400000 * 40,
     blogId: `BKOzXbzBFeNjh6NqpVez`,
     content: [
       { type: `image`, imgUrl: `BKOzXbzBFeNjh6NqpVez1.png` },
@@ -1090,7 +1090,7 @@ const data = [
   {
     title: `Unlocking the Power of LinkedIn for Explosive B2B Lead Generation in Australia`,
     readTime: 180,
-    creationDate: Date.now() - 86400000 * 27,
+    creationDate: Date.now() - 86400000 * 42,
     blogId: `4qlYgUwd4ddsCrS7L50T`,
     content: [
       { type: `image`, imgUrl: `4qlYgUwd4ddsCrS7L50T1.png` },
@@ -1147,7 +1147,7 @@ const data = [
   {
     title: `Top 10 TikTok Hacks Every Business in the USA Needs to Know for Explosive Growth`,
     readTime: 240,
-    creationDate: Date.now() - 86400000 * 28,
+    creationDate: Date.now() - 86400000 * 44,
     blogId: `VBZ8AzPh7hoIVBPPnzn1`,
     content: [
       { type: `image`, imgUrl: `VBZ8AzPh7hoIVBPPnzn11.png` },
@@ -1210,7 +1210,7 @@ const data = [
   {
     title: `Getting Ahead in Local Search: Insider Tips for US-Based Businesses`,
     readTime: 120,
-    creationDate: Date.now() - 86400000 * 29,
+    creationDate: Date.now() - 86400000 * 45,
     blogId: `VS1bwdsdQH7vJ88avyiq`,
     content: [
       { type: `image`, imgUrl: `VS1bwdsdQH7vJ88avyiq1.png` },
@@ -1259,7 +1259,7 @@ const data = [
   {
     title: `The Future of Digital Marketing in the USA: Trends to Watch Out For`,
     readTime: 180,
-    creationDate: Date.now() - 86400000 * 30,
+    creationDate: Date.now() - 86400000 * 48,
     blogId: `Ee0P3MnCadRxsKze4eYm`,
     content: [
       { type: `image`, imgUrl: `Ee0P3MnCadRxsKze4eYm1.png` },
@@ -1316,7 +1316,7 @@ const data = [
   {
     title: `Unlocking the Secret to Driving One Million Visitors to Your Website: A Step-by-Step Guide with Real-Life Examples from Successful Websites in the USA`,
     readTime: 180,
-    creationDate: Date.now() - 86400000 * 31,
+    creationDate: Date.now() - 86400000 * 51,
     blogId: `4NxlAm1r0E8ckOI0yzLC`,
     content: [
       { type: `image`, imgUrl: `4NxlAm1r0E8ckOI0yzLC1.png` },
@@ -1389,7 +1389,7 @@ const data = [
   {
     title: `The Dos and Don'ts of Promoting Your Business on Personal Social Media Accounts: A Guide to Successful Marketing in the USA.`,
     readTime: 240,
-    creationDate: Date.now() - 86400000 * 32,
+    creationDate: Date.now() - 86400000 * 55,
     blogId: `jUATr2OG7RizRtAxnv4m`,
     content: [
       { type: `image`, imgUrl: `jUATr2OG7RizRtAxnv4m1.png` },
@@ -1444,7 +1444,7 @@ const data = [
   {
     title: `The Rise of Live Streaming in the United States: Exploring its Popularity and Impact on Digital Media`,
     readTime: 180,
-    creationDate: Date.now() - 86400000 * 33,
+    creationDate: Date.now() - 86400000 * 59,
     blogId: `EvmUjH0LxC9B2FlPhTbh`,
     content: [
       { type: `image`, imgUrl: `EvmUjH0LxC9B2FlPhTbh1.png` },
@@ -1487,7 +1487,7 @@ const data = [
   {
     title: `10 Promising Digital Marketing Startups to Watch Out for in the USA`,
     readTime: 240,
-    creationDate: Date.now() - 86400000 * 34,
+    creationDate: Date.now() - 86400000 * 61,
     blogId: `r0eikCO6eFKhM9Me5ckJ`,
     content: [
       { type: `image`, imgUrl: `r0eikCO6eFKhM9Me5ckJ1.png` },
