@@ -111,6 +111,78 @@ const data = [
     creationDate: Date.now() - 86400000 * 23,
     readTime: 120,
   },
+  {
+    newsId: `if8mf9iped4vet2czb14`,
+    title: `U.S. mulling a probe of deceptive advertising on social media`,
+    description: `The U.S. Federal Trade Commission is expected to vote next week on whether to send demands for information about deceptive advertising to eight social media and video streaming companies, the agency said on Thursday. The agency did not say which social media companies would receive the demands but said that the information would be used to determine what steps they have taken to detect and remove deceptive advertising from their platforms. Some of the biggest social media companies are Facebook (NASDAQ: META) and its subsidiaries Instagram and WhatsApp. Top video streaming platforms include Alphabet (NASDAQ: GOOGL)'s YouTube and TikTok.`,
+    creationDate: Date.now() - 86400000 * 25,
+    readTime: 180,
+  },
+  {
+    newsId: `mec8ljyduzw46gvw3a6q`,
+    title: `Second-biggest bank collapse in U.S. history happened in just 48 hours`,
+    description: `On Wednesday, Silicon Valley Bank was a well-capitalized institution seeking to raise some funds. Within 48 hours, a panic induced by the very venture capital community that SVB had served and nurtured ended the bank’s 40-year run. Regulators shuttered SVB Friday and seized its deposits in the largest U.S. banking failure since the 2008 financial crisis and the second-largest ever. The company’s downward spiral began late Wednesday when it surprised investors with news that it needed to raise $2.25 billion to shore up its balance sheet. What followed was the rapid collapse of a highly-respected bank that had grown alongside its technology clients. The episode is the latest fallout from the Federal Reserve’s actions to stem inflation with its most aggressive rate-hiking campaign in four decades.`,
+    creationDate: Date.now() - 86400000 * 26,
+    readTime: 240,
+  },
+  {
+    newsId: `1es52ugmnmpfaf098jmo`,
+    title: `Key US Intelligence Official Casts Shade on TikTok, Chinese Tech`,
+    description: `Add a top U.S. intelligence official to the list of Americans expressing concern about Chinese-made technology and Chinese social media platforms like TikTok. General Paul Nakasone, who heads both the U.S. Cyber Command and the National Security Agency, told lawmakers Tuesday there are multiple reasons to be wary of China’s rapid expansion in cyberspace, calling Beijing "a very formidable foe." "TikTok concerns me for a number of different reasons," Nakasone said during a Senate Armed Services Committee hearing. "One is the data that they have. Secondly are the algorithm and the control. Who has the algorithm?" Third, he said, "is the broad platform" both for unleashing potential influence operations but also for the ability to give China a way to "turn off the message."
+    `,
+    creationDate: Date.now() - 86400000 * 28,
+    readTime: 120,
+  },
+  {
+    newsId: `iza5uhjxhku1fpg6p54n`,
+    title: `Meta to Build Standalone Social Media to Compete With Twitter`,
+    description: `According to Platformer, a tech newsletter, the project is codenamed P92 and would be built as a separate app, but users would use Instagram details to log in. The move, CNBC reported, is to help Meta attract some of Twitter's dissatisfied users looking for alternative platforms after Musk took over the site. "We're exploring a standalone decentralized social network for sharing text updates. "We believe there's an opportunity for a separate space where creators and public figures can share timely updates about their interests." The project would increase Meta's offerings beyond Facebook, WhatsApp, and Instagram and launch it into a Twitter-dominated ecosystem. Instagram head Adam Mosseri reportedly leads the project.
+    `,
+    creationDate: Date.now() - 86400000 * 30,
+    readTime: 180,
+  },
+  {
+    newsId: `andgygojwuap60y6is7y`,
+    title: `TikTok Bans Inch Closer in the US and EU`,
+    description: `With the pressure rising on TikTok, as it faces potential bans in the US and Europe due to concerns around its exposure to the CCP, the company has launched new efforts to win over policymakers in both regions, in the hopes of avoiding further restrictions, and losing billions in future revenue. The concerted efforts highlight just how serious the situation has become for the company, which is also facing possible restrictions in Canada and Australia as well. And really, if one region shuts it down, it seems increasingly likely that others will follow, which could be a virtual death blow for the app.`,
+    creationDate: Date.now() - 86400000 * 31,
+    readTime: 120,
+  },
+  {
+    newsId: `5lh23q47d6syyx0hlqbk`,
+    title: `Danish public broadcaster advises staff against using TikTok`,
+    description: `Denmark's public-service broadcaster has advised staff not to have TikTok on their work phones, because of security concerns. DR said the decision followed a security review and warnings from Denmark's Centre for Cyber Security. Journalists needing access to the app for research must now ask for permission to use what staff is calling special "TikTok phones". DR is the first news organization to issue such advice. TikTok is run from Singapore but its parent company, ByteDance, is based in Beijing, leading to growing fears, in Europe and the United States, the Chinese government could compel it to spy on users or hand over their data. TikTok and ByteDance have always denied those accusations.`,
+    creationDate: Date.now() - 86400000 * 33,
+    readTime: 180,
+  },
+  {
+    newsId: `kvxzublg5tu9sv53r0ii`,
+    title: `Instagram apologizes after thousands of users in Australia and overseas report outages on the app`,
+    description: `Instagram has issued an apology after thousands of users in Australia and around the world reported an outage on the social media giant's app. In a statement posted on Twitter just after 4 pm, Instagram said the bug had been resolved. "Earlier (today), a technical issue caused people to have trouble accessing Instagram," it said. "We resolved this issue for everyone as quickly as possible, and we apologize for any inconvenience.﻿" Outage tracking website DownDetector showed ﻿two spikes of global users experiencing issues with a social media platform, one of 57,398 reports just before 1 pm and the other an hour later with 52,143. Australian outages tracked by the site peaked at 2476 at 1.55 pm.`,
+    creationDate: Date.now() - 86400000 * 35,
+    readTime: 120,
+  },
+  {
+    newsId: `17fzcyfr9rzv7wc08c9h`,
+    title: `Alvie is Australia’s first social app for people with disabilities`,
+    description: `For many people living with disability, connecting through apps with others who share similar life experiences can be challenging. Most mainstream social networking sites have blind spots when it comes to the safety, accessibility, inclusivity, and support needs of people with disabilities. That’s why disabilities community organizer Steve Bear created Alvie, the country’s first social platform uniquely designed for people who live with disabilities. The app aims to connect those living with disabilities with like-minded people who share similar life experiences, interests, and hobbies, facilitating relationships and enriching friendships. For Bear, the app’s central purpose is providing emotional assistance — especially from loneliness.`,
+    creationDate: Date.now() - 86400000 * 37,
+    readTime: 180,
+  },
+  {
+    newsId: `t389gwtde15joh300z2s`,
+    title: `TikTok, Twitter, and Facebook are set to face an EU crackdown on toxic content`,
+    description: `The largest tech platforms will have to adhere to requirements to limit disinformation and better protect children online. TikTok, Twitter, Facebook, and Instagram have now confirmed they will face the strictest rules under the EU’s content-moderation law, the Digital Services Act (DSA). Online platforms have until Friday at midnight to reveal how many Europeans use their services under the DSA. Platforms and search engines with over 45 million EU users will have to adhere to sweeping requirements starting in the summer of 2023 including swiftly taking down illegal content, limiting disinformation, and better protecting kids and teenagers under the supervision of the European Commission. TikTok said on Friday in a blog post it had counted an average of 125 million monthly active users in the bloc between August 2022 and January 2023.`,
+    creationDate: Date.now() - 86400000 * 38,
+    readTime: 120,
+  },
+  {
+    newsId: `x2dwv6z1vdxih4wa4x7e`,
+    title: `72% of internet users in the European Union now get their news online`,
+    description: `New figures from the European Union’s statistical office Eurostat confirm that the consumption of news online is continuing to grow. The data from 2021 shows that 72% of internet users aged 16-74 in the EU read news sites, newspapers, and news magazines online. That’s a 2 percentage point increase compared with 2016. Breaking it down by countries, the highest percentages of people reading news online were found in Finland (93%), Lithuania and the Czech Republic (both 92%), and Croatia and Greece (both 90%). Romania reported the lowest usage (59%), closely followed by Germany (62%), France (63%), Italy (64%), and Belgium (67%).`,
+    creationDate: Date.now() - 86400000 * 40,
+    readTime: 180,
+  },
 ];
 
 export default data;
