@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import instagramLogo from "../../assets/home/instagramLogo.png";
 import youtubeLogo from "../../assets/home/youtubeLogo.png";
 import twitterLogo from "../../assets/home/twitterLogo.png";
@@ -7,6 +7,13 @@ import analyticsbg from "../../assets/home/analyticsbg.png";
 
 const Analytics = () => {
   const [selected, setSelected] = useState("Instagram");
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    if (!loading) return;
+    const reset = setTimeout(() => setLoading(false), 300000);
+    return () => clearTimeout(reset);
+  }, [loading]);
 
   return (
     <div className="w-full">
@@ -47,10 +54,17 @@ const Analytics = () => {
             <p>Twitter</p>
           </div>
         </div>
-        <form className="grid grid-cols-12 gap-3" onSubmit={(e) => e.preventDefault()}>
+        <form
+          className="grid grid-cols-12 gap-3"
+          onSubmit={(e) => {
+            e.preventDefault();
+            setLoading(true);
+          }}
+        >
           <div className="col-span-8 md:col-span-9 border rounded-md border-black flex items-center justify-start pl-3 gap-2 overflow-hidden">
             <BsSearch />
             <input
+              disabled={loading}
               required
               placeholder="Type username"
               type="text"
@@ -58,10 +72,15 @@ const Analytics = () => {
             />
           </div>
           <button
+            disabled={loading}
             type="submit"
-            className="col-span-4 md:col-span-3 bg-black text-white rounded-md font-medium"
+            className="col-span-4 md:col-span-3 bg-black text-white rounded-md font-medium flex items-center justify-center"
           >
-            Analyze
+            {loading ? (
+              <span className="w-6 aspect-square rounded-full border-4 border-white border-b-gray-500 animate-spin" />
+            ) : (
+              <span>Analyze</span>
+            )}
           </button>
         </form>
       </div>
