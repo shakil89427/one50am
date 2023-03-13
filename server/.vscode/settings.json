@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/4c89af04-da50-47af-ba70-268c93c36d31/resourceGroups/one50am/providers/Microsoft.Web/sites/one50am",
+    "appService.deploySubpath": "."
+}
