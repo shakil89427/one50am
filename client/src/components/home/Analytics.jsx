@@ -15,20 +15,20 @@ const Analytics = () => {
   const { username, updateUsername, search } = useMemo(() => {
     if (currentState.selected === "Instagram") {
       return {
-        username: currentState.instagramusername,
+        username: currentState.instagramUsername,
         updateUsername: currentState.updateInstagramUsername,
         search: currentState.instagramSearch,
       };
     }
     if (currentState.selected === "Youtube") {
       return {
-        username: currentState.youtubeusername,
+        username: currentState.youtubeUsername,
         updateUsername: currentState.updateYoutubeUsername,
         search: currentState.youtubeSearch,
       };
     }
     return {
-      username: currentState.twitterusername,
+      username: currentState.twitterUsername,
       updateUsername: currentState.updateTwitterUsername,
       search: currentState.twitterSearch,
     };
